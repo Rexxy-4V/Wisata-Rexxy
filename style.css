@@ -151,3 +151,9 @@ section{
     cursor: pointer;
 }
 
+.btn:hover{
+    transform: translateX(10px);
+    border: 2px solid var(--text-color);
+    background: transparent;
+    color: var(--text-color);
+}
