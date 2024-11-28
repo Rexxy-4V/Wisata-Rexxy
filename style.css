@@ -157,3 +157,37 @@ section{
     background: transparent;
     color: var(--text-color);
 }
+
+header.sticky{
+    padding: 8px 17%;
+    background: transparent;
+    backdrop-filter: blur(35px);
+}
+
+.feature-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+.row-img{
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.row-img img{
+    width: 100%;
+    display: block;
+    transition: transfrom 0.7s;
+}
+
+.row-img img:hover{
+    transform: scale(1.2);
+}
